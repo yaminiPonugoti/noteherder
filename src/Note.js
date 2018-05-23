@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Note = ({note,setCurrentNote}) => {
+const Note = ({ note, setCurrentNote }) => {
   return (
     <li
       className="Note"
@@ -8,11 +8,11 @@ const Note = ({note,setCurrentNote}) => {
     >
       <div className="note">
         <div className="note-title">
-          {note.title }
+          { note.title }
         </div>
         <div className="note-body">
           <p>
-            {note.body }
+            { note.body }
           </p>
         </div>
       </div>
