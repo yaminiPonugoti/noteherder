@@ -30,6 +30,7 @@
 }
 .NoteForm button:hover {
   color: black;
+  cursor: pointer;
 }
 .NoteForm form {
   margin: 0 auto;
